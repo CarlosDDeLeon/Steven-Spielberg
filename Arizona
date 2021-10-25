@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Final Project 
+    Author: C
+    Date: 10-02-2021 -->
+    <title>Arizona</title>
+    <meta charset="UTF-8">
+    <link href="final.css" rel="stylesheet"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+</head>
+<body>
+    <header>
+        <h1>Steven Spielberg</h1>
+    </header>
+    <nav>
+        <b>
+            <a href="index.html">Home</a> &nbsp;
+            <a href="childhood.html">Childhood</a> &nbsp;
+            <a href="films.html">Film history</a> &nbsp;
+            <a href="arizona.html">Arizona movie</a> &nbsp;
+            <a href="contact.html">Contact us</a>
+        </b>
+    </nav>
+    <h2>The next film to release</h2>
+        <main>
+            <section>
+                <img src="Flag_of_Arizona.svg.png" class="center" alt="Arizona Flag">
+                <h2>Arizona</h2>
+            </section>
+            <section>
+    <p>The next movie for the 2022 year will be about his childhood in Phoenix, Arizona. 
+        This movie will center on a young child and teen living in Phoenix during 
+        the late 1950s and early '60s and will be covering several time periods. that 
+        is the same time Steven Spielberg himself was living in the Valley.</p>
+        <br>
+        <img src="girl.JPG" width="240" height="350" class="center" alt="girl">
+     <p>The character's name is not Steven, even could be a girl. But the story, which Spielberg co-wrote
+        with Tony Kushner, sounds like there are definite hints of the young age 
+        of Steven.</p><br>
+        <p>This movie is set to be released by the year 2022</p>
+            </section>
+         
+    </main>
+<footer> <!--Footer section is where Copyrights and mail to contact us are located.-->
+    <small>
+        Copyright © 2021 Final Project<br>
+        <a href="mailto:car2241740@maricopa.edu">car2241740@maricopa.edu</a></small>
+</footer>
+
+</body>
+</html>
