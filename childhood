@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Final Project 
+    Author: C
+    Date: 10-02-2021 -->
+    <meta charset="UTF-8">
+    <link href="final.css" rel="stylesheet"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Childhood</title>
+</head>
+<body>
+    <header>
+        <h1>Steven Spielberg</h1>
+    </header>
+    <nav>
+        <b>
+            <a href="index.html">Home</a> &nbsp;
+            <a href="childhood.html">Childhood</a> &nbsp;
+            <a href="films.html">Film history</a> &nbsp;
+            <a href="arizona.html">Arizona movie</a> &nbsp;
+            <a href="contact.html">Contact us</a>
+        </b>
+    </nav>
+    <h2>His early life in Phoenix, Arizona.</h2>
+
+        <video autoplay> <!--Autoplay the video when you the tab is open-->
+           <source src="phoenix.mp4" type="video/mp4">>
+           <!--Video: City of Phoenix--> 
+        </video>
+
+    <p>Director, screenwriter, filmmaker and producer Steven Spielberg 
+        was born on December 18, 1946, in Cincinnati, Ohio. Spielberg moved 
+        several times but everything changed when he spent part of his youth 
+        in Phoenix, Arizona.</p>
+
+    <p>While living in Phoenix, when Spielberg was only 13-years-old, decided to 
+        film a war film he titled "Escape to Nowhere" using his teenage 
+        friends as actors and he won a prize for his 40 minutes war film.
+        The win motivated him to continue to make 15 more amateur 8mm films.
+        When he was 16-years-old, Spielberg wrote and directed his first independent film, 
+        a 140-minute science fiction adventure called Firelight, which would later
+        inspire Close Encounters. He made the film with $500 he borrowed from his dad, 
+        and was shown in a local cinema for one evening, which 
+        earned back its cost. After attending Arcadia High School in Phoenix for 
+        three years, his family next moved to Saratoga, California where he later 
+        graduated from Saratoga High School in 1965.</p>
+
+<footer> <!--Footer section is where Copyrights and mail to contact us are located.-->
+    <small>
+    Copyright © 2021 Final Project<br>
+    <a href="mailto:car2241740@maricopa.edu">car2241740@maricopa.edu</a></small>
+</footer>
+
+</body>
+</html>
