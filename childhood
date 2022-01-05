@@ -25,10 +25,16 @@
     </nav>
     <h2>His early life in Phoenix, Arizona.</h2>
 
-        <video autoplay> <!--Autoplay the video when you the tab is open-->
+        <video autoplay> <!--Autoplay the video when the tab is open-->
            <source src="phoenix.mp4" type="video/mp4">>
            <!--Video: City of Phoenix--> 
         </video>
+        
+        <!--
+             *
+             *   - A little bit of history
+             * 
+         -->
 
     <p>Director, screenwriter, filmmaker and producer Steven Spielberg 
         was born on December 18, 1946, in Cincinnati, Ohio. Spielberg moved 
