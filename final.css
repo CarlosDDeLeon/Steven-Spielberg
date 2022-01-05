@@ -1,0 +1,140 @@
+/*Final Project
+Author: Carlos De Leon
+Date: 10.02-2021*/ 
+
+
+* {box-sizing: border-box;}
+h2 {
+	margin-top: 1em;
+	text-align: center;
+	margin: 0;
+}
+h6{ /*I only have one h6 but I needed to align it to the center*/
+	text-align: center;
+}
+
+html, body { 
+	background-color: #F1F1FF;
+	color: #000000;
+	font-family: Verdana, Arial, sans-serif; 
+}
+
+header { /*Some basic customizing for header*/
+	background-color: #9391f7;
+	text-align: center;
+	background-size: 100% 100%;
+	color: white;
+	margin-top: 50px;
+	font-size: 90%;
+	min-height: 100px;
+}
+
+nav {
+	text-align: center;
+	background-color: #bdbbfc;
+	color: white;
+	margin: 0;
+	padding-top: 0.5em;
+	padding-bottom: 1em;
+	padding-right: 0;
+	position: fixed; top: 0; left: 0;
+	z-index: 9999;
+	width: 100%;
+	height: auto;
+}
+
+video { /*Here I just want to make sure the video will not be bigger as I expecting.*/
+
+	max-width: 500px;
+}
+
+.center{ 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 260px;
+}
+
+form { display: flex;
+	flex-flow: column nowrap;
+	width: 60%;
+	max-width: 40em;
+	grid-gap: 1em;
+	grid-template-columns: 9em 1fr;
+	grid-template-rows: auto;
+}
+
+table {
+    margin: auto;
+    border: 5px solid #000066;
+    width: 600px;
+}
+
+td, th { 
+    border: 1px solid #000066; 
+    padding: 5px; 
+    font-family: Arial, sans-serif; 
+    
+}
+section{ /*Section to make a user friendly navigation */
+	padding-left: .5em;
+	padding-right: .5em;
+}
+footer  {  /*This is the footer settings. Footer is used to show Copyright and email to contact us*/
+	color: #eaeaea;
+	background-color: #578be69e;
+	font-size: small;
+	font-style: italic;
+	text-align: center;
+	margin-top: 3em;
+}
+
+.home {
+	height: 20vh;
+	padding-top: 2em;
+	padding-left: 10%;
+	padding-bottom: 2em;
+}
+
+@media (min-width: 600px) { /*This media is to customize how the website will be visualized with smartphones*/
+    nav ul {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+    }
+    nav li {
+        width: 9em;
+
+    }
+    th, td {
+        padding: 1.2em;
+    }
+
+	video{ /*This is some data to customize how the video will show up */
+	float: right;
+	margin-left: 2em;
+	margin-right: 2em;
+	width: 400px;
+	}
+
+}
+
+@media (min-width: 1024px) {
+
+
+    /*This is for bigger screens like a PC or a Laptop screen with 1024px*/
+    header {
+        font-size: 110%; /*This is the font size for the Header*/
+    }
+    nav {
+        font: bold; /*Bold font to make it looks bigger on top*/
+    }
+    video {
+        float: right;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+	table {
+		margin: auto;
+	}
+}
