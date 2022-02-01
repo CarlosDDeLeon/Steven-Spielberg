@@ -7,3 +7,9 @@ This site includes a Table, video, pictures and customized to visit from your sm
 
 Basics of web design: HTML & CSS.
 5th edition.
+
+
+
+<!-- Reminder:
+    relocate pictures
+      remake landing page -->
